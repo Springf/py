@@ -1,0 +1,175 @@
+{
+    "adultCount": 1,
+    "childCount": 0,
+    "infantCount": 0,
+    "precision": 2,
+    "currency": "SGD",
+    "itineraryTotal": 2109.5,
+    "taxTotal": 94.5,
+    "fareTotal": 2015,
+    "grandTotal": 2109.5,
+    "segments": [
+        {
+            "originCityName": "Singapore",
+            "destinationCityName": "Sapporo",
+            "originAirportCode": "SIN",
+            "destinationAirportCode": "CTS",
+            "noOfStops": "0",
+            "legs": [
+                {
+                    "origin": {
+                        "airportCode": "SIN",
+                        "cityName": "Singapore",
+                        "date": "2020-01-02 23:00:00"
+                    },
+                    "destination": {
+                        "airportCode": "CTS",
+                        "cityName": "Sapporo",
+                        "date": "2020-01-03 07:30:00"
+                    }
+                }
+            ]
+        },
+        {
+            "originCityName": "Sapporo",
+            "destinationCityName": "Singapore",
+            "originAirportCode": "CTS",
+            "destinationAirportCode": "SIN",
+            "noOfStops": "1",
+            "legs": [
+                {
+                    "origin": {
+                        "airportCode": "CTS",
+                        "cityName": "Sapporo",
+                        "date": "2020-01-04 17:35:00"
+                    },
+                    "destination": {
+                        "airportCode": "TPE",
+                        "cityName": "Taipei",
+                        "date": "2020-01-04 21:20:00"
+                    }
+                },
+                {
+                    "origin": {
+                        "airportCode": "TPE",
+                        "cityName": "Taipei",
+                        "date": "2020-01-04 22:20:00"
+                    },
+                    "destination": {
+                        "airportCode": "SIN",
+                        "cityName": "Singapore",
+                        "date": "2020-01-05 03:05:00"
+                    }
+                }
+            ]
+        }
+    ],
+    "passengerFlightAddOns": [
+        {
+            "passengerIndex": 1,
+            "passengerId": "1",
+            "passengerType": "Adult",
+            "fareDetails": {
+                "totalFare": 2109.5,
+                "fareAmount": 2015
+            },
+            "onlyFreeBaggageAvailable": false
+        }
+    ],
+    "checkIfHasUnaccompaniedMinor": false,
+    "tripType": "R"
+}
+
+{
+    "adultCount": 1,
+    "childCount": 0,
+    "infantCount": 0,
+    "precision": 2,
+    "currency": "SGD",
+    "itineraryTotal": 2473.10,
+    "taxTotal": 219.10,
+    "fareTotal": 2254.00,
+    "grandTotal": 2473.10,
+    "segments": [
+        {
+            "originCityName": "Singapore",
+            "destinationCityName": "Queenstown",
+            "originAirportCode": "SIN",
+            "destinationAirportCode": "ZQN",
+            "noOfStops": "1",
+            "legs": [
+                {
+                    "origin": {
+                        "airportCode": "SIN",
+                        "cityName": "Singapore",
+                        "date": "2020-01-02 21:50:00"
+                    },
+                    "destination": {
+                        "airportCode": "MEL",
+                        "cityName": "Melbourne",
+                        "date": "2020-01-03 08:15:00"
+                    }
+                },
+                {
+                    "origin": {
+                        "airportCode": "MEL",
+                        "cityName": "Melbourne",
+                        "date": "2020-01-03 09:20:00"
+                    },
+                    "destination": {
+                        "airportCode": "ZQN",
+                        "cityName": "Queenstown",
+                        "date": "2020-01-03 14:35:00"
+                    }
+                }
+            ]
+        },
+        {
+            "originCityName": "Queenstown",
+            "destinationCityName": "Singapore",
+            "originAirportCode": "ZQN",
+            "destinationAirportCode": "SIN",
+            "noOfStops": "1",
+            "legs": [
+                {
+                    "origin": {
+                        "airportCode": "ZQN",
+                        "cityName": "Queenstown",
+                        "date": "2020-01-04 21:00:00"
+                    },
+                    "destination": {
+                        "airportCode": "MEL",
+                        "cityName": "Melbourne",
+                        "date": "2020-01-04 22:35:00"
+                    }
+                },
+                {
+                    "origin": {
+                        "airportCode": "MEL",
+                        "cityName": "Melbourne",
+                        "date": "2020-01-05 01:05:00"
+                    },
+                    "destination": {
+                        "airportCode": "SIN",
+                        "cityName": "Singapore",
+                        "date": "2020-01-05 05:45:00"
+                    }
+                }
+            ]
+        }
+    ],
+    "passengerFlightAddOns": [
+        {
+            "passengerIndex": 1,
+            "passengerId": "1",
+            "passengerType": "Adult",
+            "fareDetails": {
+                "totalFare": 2473.10,
+                "fareAmount": 2254.00
+            },
+            "onlyFreeBaggageAvailable": false
+        }
+    ],
+    "checkIfHasUnaccompaniedMinor": false,
+    "tripType": "R"
+}
